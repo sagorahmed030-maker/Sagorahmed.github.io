@@ -55,23 +55,13 @@ button:hover{
 <div class="box">
     <h2>Visitor Information</h2>
 
-    <form action="https://formsubmit.co/sagorahmed030@gmail.com" method="POST">
-
-        <input type="text" name="Name" placeholder="Your Name" required>
-
-        <input type="email" name="Email" placeholder="Your Email" required>
-
-        <input type="text" name="Phone" placeholder="Phone Number">
-
-        <textarea name="Message" rows="5" placeholder="Write Message"></textarea>
-
-        <input type="hidden" name="_captcha" value="false">
-        <input type="hidden" name="_subject" value="New Visitor From Portfolio">
-        <input type="hidden" name="_next" value="https://sagorahmed030-maker.github.io/index/thankyou.html">
-
-        <button type="submit">Submit</button>
-
-    </form>
+   <form action="https://api.web3forms.com/submit" method="POST">
+  <input type="hidden" name="access_key" value="411e68d8-d4fa-4709-bf1c-eafae9046dfd">
+  <input type="text" name="name" required>
+  <input type="email" name="email" required>
+  <textarea name="message" required></textarea>
+  <button type="submit">Submit</button>
+</form>
 </div>
 
 </body>
